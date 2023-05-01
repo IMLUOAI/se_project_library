@@ -223,12 +223,11 @@
 }
 .staff {
   padding: 100px 0 140px;
-}
-.staff__background-image {
+  background-image: url(../images/staff_picks_background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 0;
+
 }
 
 .staff__title {
@@ -237,6 +236,7 @@
   line-height: 52px;
   margin: 0 0 24px;
   list-style-type: none;
+  color: white;
 }
 
 .staff__subtitle {
@@ -245,16 +245,18 @@
   line-height: 30px;
   font-weight: 400;
   margin: 0;
+  color: white;
 }
 
 .staff__card {
   max-width: 760px;
   margin-top: 68px;
   gap: 40px 40px;
+  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  list-style-type: none;
   justify-content: space-around;
+  border: 1px dash red;
 
 }
 
@@ -265,6 +267,7 @@
   box-sizing: border-box;
   width: 360px;
   height: 420px;
+  border: 1px solid blue;
 
 
 }
