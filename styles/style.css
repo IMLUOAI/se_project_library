@@ -266,9 +266,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-
 }
+
 
 .card {
   background-color: #fff;
@@ -329,8 +328,6 @@
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
-
-
 
 }
 
@@ -419,6 +416,8 @@
 
 .footer__columns {
   display: flex;
+  flex-direction:row;
+  flex-basis: auto;
 }
 
 .footer__column_content_hours {
@@ -439,6 +438,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+
 }
 
 .footer__list-item {
@@ -449,7 +449,6 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-
 }
 .footer__list-item:last-of-type {
   margin-bottom: 0;
