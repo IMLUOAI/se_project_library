@@ -327,7 +327,7 @@
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin: 100px auto;
+  margin: 100px 0 0;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -337,7 +337,6 @@
 .step {
   margin: 0;
   width: 220px;
-  padding: 8px 15px 0 0;
   box-sizing: border-box;
   flex-basis: auto;
 }
